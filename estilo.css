@@ -1,0 +1,152 @@
+body{
+	background-color: #EE5858;
+	font-family: "Trebuchet MS";
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-color: #ffffff;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;	
+	
+}
+
+#Titulo{
+	font-family: "Impact";
+	float: left;
+}
+
+#navbar{
+	float: right;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #000000;
+	padding-left: 0%;
+	padding-right: 5%;
+	height: 30px;
+	width:100%;
+}
+
+a{
+	color: #EE5858;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	font-size: 13px;
+	color: #EE5858;
+	text-align: center;
+	padding: 7px 20px;
+	text-decoration: none;
+}
+
+li a:hover {
+  background-color: #404040;
+}
+
+#linksSaibaMais{
+	float: center;
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 0%;
+	height: 90px;
+	width:100%;
+}
+
+#linksSaibaMais li{
+	padding: 5px;
+	margin: 5px;
+}
+
+#linksSaibaMais li a{
+	font-size: 15px;
+	border-style: solid;
+	border-color: #BFBFBF;
+	border-width: 1px;
+	border-radius: 2px;
+}
+
+main{
+	background-color: #ffffff;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+
+h5{
+	color: #BFBFBF;
+	text-align: center;
+}
+
+h2{
+	color:#EC4040;
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 15px;
+}
+
+p{
+	padding-right: 5%;
+	padding-left: 2%;
+	text-align: justify;
+}
+
+.NoticiaTexto{
+	display: flex;
+}
+
+.NoticiaTexto img{
+	box-shadow: 2px 2px 4px #545454;
+	max-height: 200px;
+    max-width: 300px;
+	margin-top: 10%;
+	margin-right: 5%;
+}
+
+.NoticiaVideo iframe{
+	box-shadow: 2px 2px 4px #545454;
+	margin-top: 10%;
+	margin-right: 5%;
+}
+
+.NoticiaTexto h5{
+	text-align: right;
+	padding-right: 5%;
+}
+
+.NoticiaVideo{
+	display: flex;
+}
+
+.NoticiaVideo h5{
+	text-align: right;
+	padding-right: 5%;
+}
+
+footer{
+	text-align: center;
+	font-size: 13px;
+	background-color: #000000;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+}
+
+footer a{
+	color: #EE5858;
+	text-decoration: none;
+}
